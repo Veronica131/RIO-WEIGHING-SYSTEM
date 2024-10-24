@@ -360,12 +360,10 @@ button:hover a {
 
 .meet-team {
     background-color: #f9f9f9;
-    /* Light background */
     padding: 20px;
     border-radius: 8px;
     max-width: 800px;
     margin: 0 auto;
-    /* Center the section */
 }
 
 .meet-team h1 {
