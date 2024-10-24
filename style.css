@@ -401,6 +401,48 @@ button:hover a {
     margin: 5px 0 0;
 }
 
+/* Testimonial Section */
+.awards-recognition {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #e9ecef;
+    border-radius: 8px;
+    margin: 30px 0;
+}
+
+.awards-recognition h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.awards-recognition ul {
+    list-style-type: none;
+    /* Remove default bullets */
+    padding: 0;
+    /* Remove padding */
+}
+
+.awards-recognition li {
+    font-size: 1.2em;
+    color: #555;
+    padding: 10px 0;
+    position: relative;
+    /* For the line decoration */
+}
+
+.awards-recognition li::before {
+    content: "✔";
+    /* Checkmark symbol */
+    position: absolute;
+    left: -25px;
+    /* Adjust left positioning */
+    color: #28a745;
+    /* Green color for the checkmark */
+    font-size: 1.5em;
+    /* Size of the checkmark */
+}
+
 
 /* About Section */
 footer {
